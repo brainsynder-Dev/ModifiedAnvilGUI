@@ -40,6 +40,10 @@
             <url>https://repo.codemc.org/repository/nms/</url>
         </repository>
         <repository>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
+        <repository>
             <id>bs-public</id>
             <url>https://repo.pluginwiki.us/repository/maven-releases/</url>
         </repository>
