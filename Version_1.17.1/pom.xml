@@ -28,7 +28,7 @@
         <dependency>
             <groupId>anvil.brainsynder</groupId>
             <artifactId>nms_base</artifactId>
-            <version>1</version>
+            <version>${api.version}</version>
         </dependency>
     </dependencies>
 
