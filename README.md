@@ -21,6 +21,42 @@ It is set up to make it easy to update to new NMS versions.
     <artifactId>anvilgui</artifactId>
     <version>1.5.9-CUSTOM</version>
 </dependency>
+```
 
-Make sure you Shade it!!!
+## Remember to shade and relocate the dependency
+
+```xml
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-shade-plugin</artifactId>
+    <version>3.3.0-SNAPSHOT</version>
+    <configuration>
+        <minimizeJar>true</minimizeJar>
+        <createDependencyReducedPom>false</createDependencyReducedPom>
+    </configuration>
+    <executions>
+        <execution>
+            <phase>package</phase>
+            <goals>
+                <goal>shade</goal>
+            </goals>
+            <configuration>
+                <relocations>
+                    <relocation>
+                        <pattern>anvil.brainsynder</pattern>
+                        <shadedPattern>${groupId}.internal.anvil</shadedPattern>
+                    </relocation>
+                </relocations>
+            </configuration>
+        </execution>
+    </executions>
+</plugin>
+
+<!-- And due to the dependency using Java 16/17 you need to add this to your pom.xml file -->
+<pluginRepositories>
+    <pluginRepository>
+        <id>apache.snapshots</id>
+        <url>https://repository.apache.org/snapshots/</url>
+    </pluginRepository>
+</pluginRepositories>
 ```
