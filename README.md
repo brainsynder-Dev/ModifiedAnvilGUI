@@ -19,7 +19,7 @@ It is set up to make it easy to update to new NMS versions.
 <dependency>
     <groupId>anvil.brainsynder</groupId>
     <artifactId>anvilgui</artifactId>
-    <version>1.5.9-CUSTOM</version>
+    <version>1.6.0-CUSTOM</version>
 </dependency>
 ```
 
