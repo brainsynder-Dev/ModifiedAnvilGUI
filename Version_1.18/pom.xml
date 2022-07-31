@@ -10,12 +10,14 @@
         <version>1</version>
     </parent>
 
-    <artifactId>anvilgui-1.18</artifactId>
+    <artifactId>anvilgui-${minecraft.version}</artifactId>
     <version>${api.version}</version>
 
     <properties>
+        <minecraft.version>1.18</minecraft.version>
+
         <java.version>17</java.version>
-        <spigot.version>1.18-R0.1-SNAPSHOT</spigot.version>
+        <spigot.version>${minecraft.version}-R0.1-SNAPSHOT</spigot.version>
     </properties>
 
     <dependencies>
