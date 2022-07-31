@@ -1,6 +1,4 @@
-package anvil.brainsynder.internal.bslib;
-
-import anvil.brainsynder.internal.bslib.utils.Triple;
+package anvil.brainsynder.version;
 
 public interface IVersion {
     String name ();

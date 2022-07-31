@@ -1,4 +1,4 @@
-package anvil.brainsynder.internal.bslib.utils;
+package anvil.brainsynder.version;
 
 public final class Triple<L, M, R> {
     public L left;
