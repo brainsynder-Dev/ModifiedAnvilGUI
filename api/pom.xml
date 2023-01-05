@@ -74,6 +74,12 @@
             <version>${api.version}</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>anvil.brainsynder</groupId>
+            <artifactId>anvilgui-1.19.3</artifactId>
+            <version>${api.version}</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
 </project>
