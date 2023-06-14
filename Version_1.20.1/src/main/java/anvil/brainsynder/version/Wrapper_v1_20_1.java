@@ -8,10 +8,10 @@ import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.AnvilMenu;
 import net.minecraft.world.inventory.ContainerLevelAccess;
 import net.minecraft.world.inventory.MenuType;
-import org.bukkit.craftbukkit.v1_20_1_R1.CraftWorld;
-import org.bukkit.craftbukkit.v1_20_1_R1.entity.CraftPlayer;
-import org.bukkit.craftbukkit.v1_20_1_R1.event.CraftEventFactory;
-import org.bukkit.craftbukkit.v1_20_1_R1.util.CraftChatMessage;
+import org.bukkit.craftbukkit.v1_20_R1.CraftWorld;
+import org.bukkit.craftbukkit.v1_20_R1.entity.CraftPlayer;
+import org.bukkit.craftbukkit.v1_20_R1.event.CraftEventFactory;
+import org.bukkit.craftbukkit.v1_20_R1.util.CraftChatMessage;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 
