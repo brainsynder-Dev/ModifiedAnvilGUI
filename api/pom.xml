@@ -17,42 +17,12 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot</artifactId>
-            <version>1.17-R0.1-SNAPSHOT</version>
+            <version>1.19-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>anvil.brainsynder</groupId>
             <artifactId>nms_base</artifactId>
-            <version>${api.version}</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>anvil.brainsynder</groupId>
-            <artifactId>anvilgui-1.17</artifactId>
-            <version>${api.version}</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>anvil.brainsynder</groupId>
-            <artifactId>anvilgui-1.17.1</artifactId>
-            <version>${api.version}</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>anvil.brainsynder</groupId>
-            <artifactId>anvilgui-1.18</artifactId>
-            <version>${api.version}</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>anvil.brainsynder</groupId>
-            <artifactId>anvilgui-1.18.1</artifactId>
-            <version>${api.version}</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>anvil.brainsynder</groupId>
-            <artifactId>anvilgui-1.18.2</artifactId>
             <version>${api.version}</version>
             <scope>compile</scope>
         </dependency>
