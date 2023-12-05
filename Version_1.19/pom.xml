@@ -12,6 +12,7 @@
 
     <artifactId>anvilgui-${minecraft.version}</artifactId>
     <version>${api.version}</version>
+    <packaging>jar</packaging>
 
     <properties>
         <minecraft.version>1.19</minecraft.version>
@@ -40,7 +41,7 @@
             <plugin>
                 <groupId>net.md-5</groupId>
                 <artifactId>specialsource-maven-plugin</artifactId>
-                <version>1.2.4</version>
+                <version>1.2.5</version>
                 <executions>
                     <execution>
                         <phase>package</phase>

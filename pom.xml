@@ -37,8 +37,8 @@
 
     <repositories>
         <repository>
-            <id>bs-nms</id>
-            <url>https://repo.pluginwiki.us/repository/nms/</url>
+            <id>bs-repo-nms</id>
+            <url>https://repo.bsdevelopment.org/nms</url>
         </repository>
         <repository>
             <id>nms-repo</id>
@@ -49,8 +49,8 @@
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
         <repository>
-            <id>bs-public</id>
-            <url>https://repo.pluginwiki.us/repository/maven-releases/</url>
+            <id>bs-repo-releases</id>
+            <url>https://repo.bsdevelopment.org/releases</url>
         </repository>
     </repositories>
 
@@ -111,13 +111,9 @@
 
     <distributionManagement>
         <repository>
-            <id>maven-releases</id>
-            <url>https://repo.pluginwiki.us/repository/maven-releases/</url>
+            <id>bs-repo-releases</id>
+            <url>https://repo.bsdevelopment.org/releases</url>
         </repository>
-        <snapshotRepository>
-            <id>maven-snapshots</id>
-            <url>https://repo.pluginwiki.us/repository/maven-snapshots/</url>
-        </snapshotRepository>
     </distributionManagement>
 
     <pluginRepositories>
