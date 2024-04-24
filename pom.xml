@@ -12,7 +12,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <api.version>1.6.15-CUSTOM</api.version>
+        <api.version>1.6.16-CUSTOM</api.version>
 
         <spigot.version>1.19-R0.1-SNAPSHOT</spigot.version>
         <java.version>17</java.version>
@@ -34,6 +34,7 @@
         <module>Version_1.20.2</module>
         <module>Version_1.20.3</module>
         <module>Version_1.20.4</module>
+        <module>Version_1.20.5</module>
     </modules>
 
     <repositories>
