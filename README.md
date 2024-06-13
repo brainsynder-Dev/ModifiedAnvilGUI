@@ -12,14 +12,14 @@ It is set up to make it easy to update to new NMS versions.
 
 ```xml
 <repository>
-    <id>bs-repo</id>
-    <url>https://repo.pluginwiki.us/repository/maven-releases/</url>
+    <id>bs-repo-releases</id>
+    <url>https://repo.bsdevelopment.org/releases</url>
 </repository>
 
 <dependency>
     <groupId>anvil.brainsynder</groupId>
     <artifactId>anvilgui</artifactId>
-    <version>1.6.0-CUSTOM</version>
+    <version>1.6.18-CUSTOM</version>
 </dependency>
 ```
 
@@ -51,12 +51,4 @@ It is set up to make it easy to update to new NMS versions.
         </execution>
     </executions>
 </plugin>
-
-<!-- And due to the dependency using Java 16/17 you need to add this to your pom.xml file -->
-<pluginRepositories>
-    <pluginRepository>
-        <id>apache.snapshots</id>
-        <url>https://repository.apache.org/snapshots/</url>
-    </pluginRepository>
-</pluginRepositories>
 ```
