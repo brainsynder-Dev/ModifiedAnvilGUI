@@ -15,7 +15,7 @@ import org.bukkit.craftbukkit.v1_21_R3.util.CraftChatMessage;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 
-public final class Wrapper_1.21.4 implements VersionWrapper {
+public final class Wrapper_1_21_4 implements VersionWrapper {
     private int getRealNextContainerId(Player player) {
         return toNMS(player).nextContainerCounter();
     }
